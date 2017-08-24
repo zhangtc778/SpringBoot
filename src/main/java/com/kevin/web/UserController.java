@@ -33,7 +33,7 @@ public class UserController {
 		User findUserByName = userMapper.findUserByName("乐银珠");
 		userService.findUser("2", "2");
 		userService.findUser("2", "2");
-		return "hello world2222222222222222222" + findUserByName.getName();
+		return "hello world2222222222222222222" + findUserByName.getId();
 	}
 
 	@RequestMapping(value = "/sessions")
